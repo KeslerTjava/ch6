@@ -1,9 +1,9 @@
 public class Palindrome{
 	 
 	 public static void main(String [] args) {
-		 System.out.println(isPalindrome("racecar");
-	 
-public static boolean isPalindrome(String str) {
+		 System.out.println(isPalindrome("racecar"));
+	 }
+	public static boolean isPalindrome(String str) {
     str = str.toLowerCase();
 
     String nonLetters = ",.:;()[]{}!@#$%^&* ";
@@ -31,4 +31,4 @@ public static boolean isPalindrome(String str) {
 
     return true;
 }
-
+}
